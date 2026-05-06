@@ -1,0 +1,30 @@
+
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--color-light);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+header div{
+    color: #8b5cf6; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black
+}
+header nav a:hover{
+    background-color: #d1c40f;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
