@@ -1,0 +1,11 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-image {
+  align-self: center;
+  justify-self: center;
+}
